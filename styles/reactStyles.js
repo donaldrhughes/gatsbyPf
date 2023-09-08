@@ -1,9 +1,18 @@
+const p_fontSize = "28px"
+
 export const styles = {
   mb2: {
     marginBottom: "2em",
   },
   rm3: {
     marginRight: "3px",
+  },
+  p: {
+    fontSize: p_fontSize,
+  },
+  pi: {
+    fontSize: p_fontSize,
+    fontStyle: "italic"
   },
   h: {
     fontWeight: 'bold',
