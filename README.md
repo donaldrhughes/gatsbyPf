@@ -1,4 +1,16 @@
 # Portfolio Site of Donald R Hughes
+
+### Gatsby 5 Web Application
+react, 
+reach-router, 
+bulma, 
+privateRoute,
+seo,
+blog,
+graphql
+
+
+# Resume
 ### Programming Languages: 
 TypeScript, Javascript (Next), PHP, Oracle Java 12, HTML5, SCSS, Regex, cURL, graphQL, SQL, XML
 ### Frameworks: 
