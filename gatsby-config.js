@@ -10,11 +10,20 @@ module.exports = {
       summary: `Phoenix, AZ Area`,
       description: `Front End Web Developer specializing in React`,
     },
-    description: `Front End Web Developer specializing in React and Gatsby`,
-    description2: `TypeScript, Javascript (Next), PHP, Oracle Java 12, HTML5, SCSS, Regex, cURL, graphQL, SQL, XML
+    description: `A 25 year technology problem solver with experience in web development, implementation, technical account management, and solutions consulting. Strong knowledge of computer applications, functional programming, and Agile methodologies with a distinct focus on Client success. Reliable self starter with a passion for completing projects and promoting cross-team communication. Utilizes industry standards, is collaborative, timely, and prepared.
+    `,
+    skills: `TypeScript, Javascript (Next), PHP, Oracle Java 12, HTML5, SCSS, Regex, cURL, graphQL, SQL, XML
     Frameworks: Gatsby, React Web / React-Native, Node (Express),  JQuery, Angular, Laravel
     JS Libraries: Redux, Jest / React Testing Library, Storybook, lodash, Bulma, i18next, Formik, es-lint
     `,
+    education: `Capella University - BS Information Technology, Minor: Mobile Application Development -- GPA: 3.5+
+    University of California, Irvine - Coding Bootcamp (Diploma) - 26 Continuing Education Units (CEU)
+    Certifications: Javascript, React, Node, mysql, no-sql, jQuery, HTML, CSS
+    Scrum Fundamentals Certified (SFC) - ScrumStudy - VMEdu
+    Countywide University - Information Technology Certification - IT Campus Program (Infrastructure)
+    Windows Server, MSSQL Administration, AD Design and Security, Transact SQL, DB Design
+    Comp-Tia - A+ Certification | Microsoft Certified Professional | AWS Essentials
+    CyberSummitUSA - TOLA Virtual Cyber Security Summit Power Hour - (2) CEU`,
     siteUrl: `http://drhiot.com`,
     social: {
       twitter: `@drhiot`,

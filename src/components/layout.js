@@ -17,7 +17,8 @@ const Layout = ({ children }) => {
                 siteMetadata {
                   title
                   description
-                  description2
+                  skills
+                  education
                 }
               }
               allMarkdownRemark(sort: { frontmatter: { date: DESC } }) {
@@ -61,7 +62,7 @@ const Layout = ({ children }) => {
   )
 }
 
-export const Head = () => <Seo title="Rogue Souls" />
+export const Head = () => <Seo title="Donald R Hughes" />
 
 Layout.propTypes = {
   title: PropTypes.string,

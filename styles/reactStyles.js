@@ -1,12 +1,13 @@
 export const styles = {
-  lowMargin: {
+  mb2: {
     marginBottom: "2em",
   },
-  rightMargin: {
+  rm3: {
     marginRight: "3px",
   },
-  header: {
-    fontWeight: 'bold' 
+  h: {
+    fontWeight: 'bold',
+    fontSize: 'xx-large',
   },
   center: {
     display: "flex",
@@ -18,16 +19,16 @@ export const styles = {
     justifyContent: "space-between",
     marginBottom: '1em'
   },
-  mainTitleHeader: {
+  titleH: {
     display: "flex",
     alignItems: "center",
     justifyContent: "center",
     marginBottom: "1em",
     textDecoration: "underline",
     fontWeight: "bolder",
-    fontSize: "x-large"
+    fontSize: "xx-large"
   },
-  pageHeader: {
+  pageH: {
     display: "flex",
     alignItems: "center",
     justifyContent: "center",
@@ -36,7 +37,7 @@ export const styles = {
     fontSize: "x-large",
     backgroundColor: "#EEE"
   },
-  sectionHeader: {
+  sectionH: {
     display: "flex",
     alignItems: "left",
     justifyContent: "left",
@@ -48,9 +49,17 @@ export const styles = {
   justify: {
     textAlign: 'justify'
   },
-  radiusTop: {
+  mainTxt: {
+    textAlign: 'justify',
+    fontSize: 'x-large'
+  },
+  rt6: {
     borderRadius: '6px 6px 0px 0px'
-  }
+  },
+  menuTxt: {
+    borderRadius: '6px 6px 0px 0px',
+    fontSize: 'x-large'
+  },
 }
 
 export default styles

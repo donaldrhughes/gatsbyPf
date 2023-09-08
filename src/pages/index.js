@@ -6,19 +6,21 @@ import { AppContext } from "../context/app-context"
 import styles from "../../styles/reactStyles"
 // import rs_pic from "../images/universe.jpeg"
 
-const BlogIndex = () => (
+const Index = () => (
   <Layout>
     <AppContext.Consumer>
       {({ siteMetadata }) => {
         return (
           <>
             {/* <img alt="header_pic" style={{ width: "100%" }} src={rs_pic} /> */}
-            <h3 style={styles.mainTitleHeader}>
+            <h3 style={styles.titleH}>
               <Link to="/">{"Portfolio"}</Link>
             </h3>
-            <p style={styles.justify}>{siteMetadata?.description}</p>
+            <p style={styles.mainTxt}>{siteMetadata?.description}</p>
             <br />
-            <p style={styles.justify}>{siteMetadata?.description2}</p>
+            <p style={styles.mainTxt}>{siteMetadata?.skills}</p>
+            <br />
+            <p style={styles.mainTxt}>{siteMetadata?.education}</p>
           </>
         )
       }}
@@ -26,9 +28,9 @@ const BlogIndex = () => (
   </Layout>
 )
 
-export default BlogIndex
+export default Index
 
-BlogIndex.propTypes = {
+Index.propTypes = {
   data: PropTypes.object,
   posts: PropTypes.array,
 }

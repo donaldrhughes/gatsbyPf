@@ -25,7 +25,7 @@ const Menu = () => {
     <>
       <nav
         class="navbar is-primary"
-        style={styles.radiusTop}
+        style={styles.menuTxt}
         role="navigation"
         aria-label="main navigation"
       >
