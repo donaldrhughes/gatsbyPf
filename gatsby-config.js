@@ -7,7 +7,7 @@ module.exports = {
     title: `Donald R Hughes`,
     author: {
       name: `Donald R Hughes`,
-      summary: `Peoria, AZ`,
+      summary: `Phoenix, AZ Area`,
       description: `Front End Web Developer specializing in React`,
     },
     description: `Front End Web Developer specializing in React and Gatsby`,
@@ -22,7 +22,7 @@ module.exports = {
     contributors: [
       {
         name: `Donald Hughes`,
-        summary: `in Peoria, AZ`,
+        summary: `Phoenix AZ Area`,
         description: `A 25 year technology problem solver with experience in web development, implementation, technical account management, and solutions consulting. Strong knowledge of computer applications, functional programming, and Agile methodologies with a distinct focus on Client success. Reliable self starter with a passion for completing projects and promoting cross-team communication. Utilizes industry standards, is collaborative, timely, and prepared.`,
       },
     ],
