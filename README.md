@@ -9,6 +9,20 @@ seo,
 blog,
 graphql
 
+### Gatsby Installation:
+clone the repo locally
+##### --then--
+at bash run cmd:
+yarn install
+##### --then--
+yarn start 
+##### --or --
+gatsby develop 
+to start the website...
+##### --then--
+open http://localhost:8000 in the browser
+
+
 
 # Resume
 ### Programming Languages: 
@@ -25,16 +39,3 @@ Postman, Docker, Jenkins, Figma, Visual Studio, Android Studio, SQL Server, Jira
 Agile, Convergence, Enterprise Solutions, Content Management,  Compliance, Customer Success, Needs Assessment, SOW, Use Case Analysis, eCommerce, Account Management, Presentations, Proposals, UML, ERD, Electronic Health, Disaster Planning, Psychology, Writing
 ### Math:  
 Precalculus, Discrete, Statistics, Finite, Logic
-
-### Gatsby Installation:
-clone the repo locally
-##### --then--
-at bash run cmd:
-yarn install
-##### --then--
-yarn start 
-##### --or --
-gatsby develop 
-to start the website...
-##### --then--
-open http://localhost:8000 in the browser
