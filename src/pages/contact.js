@@ -8,9 +8,7 @@ const Contact = () => {
   return (
     <Layout>
       <div style={styles.contactBtn}>
-      <div style={styles.rightMargin}><a href=''><button class='button is-primary is-outlined'>Twitter</button> </a></div>
-      <div style={styles.rightMargin}><a href=''><button class='button is-primary is-outlined'>Patreon</button> </a></div>
-      <div style={styles.rightMargin}><a href='https://dither001.itch.io/rogue-souls'><button class='button is-dark is-outlined'>Download</button> </a></div>
+      <div style={styles.rightMargin}><a href=''><button class='button is-dark is-outlined'>Download</button> </a></div>
     </div>
     <Bio/>
     </Layout>

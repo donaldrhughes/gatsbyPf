@@ -24,7 +24,7 @@ const Menu = () => {
   return (
     <>
       <nav
-        class="navbar is-dark "
+        class="navbar is-primary"
         style={styles.radiusTop}
         role="navigation"
         aria-label="main navigation"
@@ -85,9 +85,9 @@ const Menu = () => {
               <div class="navbar-item has-dropdown is-hoverable">
                 <a class="navbar-link">Sandbox</a>
                 <div class="navbar-dropdown">
-                  <a class="navbar-item">Game</a>
+                  <a class="navbar-item">Other</a>
                   <hr class="navbar-divider" />
-                  <a class="navbar-item">Testbed</a>
+                  <a class="navbar-item">Test</a>
                 </div>
               </div>
             )}
@@ -96,9 +96,6 @@ const Menu = () => {
           <div class="navbar-end">
             <div class="navbar-item">
               <div class="buttons">
-                {/* <a class="button is-primary">
-                  <strong>Sign up</strong>
-                </a> */}
                 {!isLoggedIn() && (
                   <a class="button is-primary is-light" href="/app/login">
                     Log in
