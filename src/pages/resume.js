@@ -13,18 +13,15 @@ const Index = () => (
         return (
           <>
           <h1 style={styles.titleH}>
-              <Link to="/resume">Portfolio</Link>
+              <Link to="/">Download</Link>
             </h1>
-            <h3 style={styles.h}>
-              Summary
-            </h3>
-            <p style={styles.p}>{siteMetadata?.description}</p>
-            <br />
-            <img alt="headerImage" style={styles.headerImg} src={mb_pic} />
-            <br />
-            <p style={styles.p}>{siteMetadata?.skills}</p>
-            <br />
-            <p style={styles.p}>{siteMetadata?.education}</p>
+            <a
+              style={styles.center}
+              alt="Download my resume"
+              href="https://dither001.itch.io/rogue-souls"
+            >
+              <button class="button is-dark is-outlined">Download Resume</button>{" "}
+            </a>
           </>
         );
       }}

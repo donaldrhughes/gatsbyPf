@@ -7,7 +7,7 @@ export const styles = {
   },
   h: {
     fontWeight: 'bold',
-    fontSize: 'xx-large',
+    fontSize: '32px',
   },
   center: {
     display: "flex",
@@ -49,16 +49,16 @@ export const styles = {
   justify: {
     textAlign: 'justify'
   },
-  mainTxt: {
-    textAlign: 'justify',
-    fontSize: 'x-large'
-  },
   rt6: {
     borderRadius: '6px 6px 0px 0px'
   },
   menuTxt: {
     borderRadius: '6px 6px 0px 0px',
-    fontSize: 'x-large'
+    fontSize: '40px'
+  },
+  headerImg: {
+    width: '20%',
+    // height: '500px'
   },
 }
 

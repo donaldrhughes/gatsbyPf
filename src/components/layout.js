@@ -56,7 +56,7 @@ const Layout = ({ children }) => {
           }
         </header>
         <main>{children}</main>
-        <footer>© {new Date().getFullYear()}, Built by Donald R Hughes</footer>
+        <footer>© {new Date().getFullYear()}, Built by Donald R Hughes with <a href='http://www.gatsbyjs.org'> Gatsby</a> and <a href='http://www.reactjs.org'>React</a> --some_icon--</footer>
       </div>
     </>
   )

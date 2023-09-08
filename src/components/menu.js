@@ -24,7 +24,7 @@ const Menu = () => {
   return (
     <>
       <nav
-        class="navbar is-primary"
+        class="navbar is-info"
         style={styles.menuTxt}
         role="navigation"
         aria-label="main navigation"
@@ -70,7 +70,7 @@ const Menu = () => {
             <a class="navbar-item" href="/">
               Main
             </a>
-            <a class="navbar-item" href="/">
+            <a class="navbar-item" href="/resume">
               Resume
             </a>
             <a class="navbar-item" href="/blog">
