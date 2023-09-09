@@ -13,7 +13,7 @@ const Index = () => (
         return (
           <>
           <h1 style={styles.titleH}>
-              <Link to="/resume">Portfolio</Link>
+              <Link to="/">Portfolio</Link>
             </h1>
             <h3 style={styles.h}>
               Summary

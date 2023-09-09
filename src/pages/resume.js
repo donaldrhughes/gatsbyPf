@@ -13,14 +13,14 @@ const Index = () => (
         return (
           <>
           <h1 style={styles.titleH}>
-              <Link to="/">Download</Link>
+              <Link to="/resume">Download resume below:</Link>
             </h1>
             <a
               style={styles.center}
-              alt="Download my resume"
-              href="https://dither001.itch.io/rogue-souls"
+              alt="Download resume below: "
+              href=""
             >
-              <button class="button is-dark is-outlined">Download Resume</button>{" "}
+              <button class="button is-large is-success is-outlined">Download Resume</button>{" "}
             </a>
           </>
         );
