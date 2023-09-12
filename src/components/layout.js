@@ -4,6 +4,7 @@ import Seo from "../components/seo"
 import Menu from "./menu"
 import PropTypes from "prop-types"
 import { AppContext } from "../context/app-context"
+import styles from "../../styles/reactStyles"
 
 const Layout = ({ children }) => {
   const context = useContext(AppContext)
@@ -56,7 +57,7 @@ const Layout = ({ children }) => {
           }
         </header>
         <main>{children}</main>
-        <footer>© {new Date().getFullYear()}, Built by Donald R Hughes with <a href='http://www.gatsbyjs.org'> Gatsby</a> and <a href='http://www.reactjs.org'>React</a> --some_icon--</footer>
+        <footer style={styles.footer} >© {new Date().getFullYear()}, Built by Donald R Hughes with Gatsby and React</footer>
       </div>
     </>
   )

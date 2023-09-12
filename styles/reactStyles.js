@@ -1,4 +1,5 @@
 const p_fontSize = "28px"
+const f_fontStize = "22px"
 
 export const styles = {
   mb2: {
@@ -9,6 +10,9 @@ export const styles = {
   },
   p: {
     fontSize: p_fontSize,
+    marginLeft: "2%",
+    textAlign: 'justify',
+    padding: '1%',
   },
   pi: {
     fontSize: p_fontSize,
@@ -67,7 +71,14 @@ export const styles = {
   },
   headerImg: {
     width: '20%',
-    // height: '500px'
+    float: 'right',
+    marginLeft: '1%',
+  },
+  footer: {
+    fontSize: f_fontStize,
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
   },
 }
 
