@@ -20,6 +20,7 @@ const Blog = () => (
                       className="post-list-item"
                       itemScope
                       itemType="http://schema.org/Article"
+                      style={styles.p}
                     >
                       <header>
                         <h2>

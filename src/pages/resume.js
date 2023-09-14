@@ -13,16 +13,25 @@ const Index = () => (
         return (
           <>
           <h1 style={styles.titleH}>
-              <Link to="/resume">Resume Link on Google Docs</Link>
+              <Link to="/resume">Resume Download and Direct Link</Link>
             </h1>
             {/* <iframe style={{ width: "100%"}} src="https://docs.google.com/document/d/e/2PACX-1vSprik6F_FO5Lo-tX7Hvy1gMdyHZUVdz-t65VBZFZ-HN5_PAY0Xgf0s8cpBWK2L5DX6eD9hS2Q_K2QX/pub?embedded=true"></iframe> */}
+            <a
+              style={styles.center}
+              alt="Resume Download"
+              target="_blank"
+              href="../../static/Donald_Hughes_2023_Q3_Dev.docx"
+            >
+              <button class="button is-large is-success is-outlined">Download Resume</button>{" "}
+            </a>
+            <br/>
             <a
               style={styles.center}
               alt="Resume Link"
               target="_blank"
               href="https://docs.google.com/document/d/e/2PACX-1vSprik6F_FO5Lo-tX7Hvy1gMdyHZUVdz-t65VBZFZ-HN5_PAY0Xgf0s8cpBWK2L5DX6eD9hS2Q_K2QX/pub"
             >
-              <button class="button is-large is-success is-outlined">Link to Resume</button>{" "}
+              <button class="button is-large is-success is-outlined">Resume Link</button>{" "}
             </a>
             
           </>
