@@ -42,13 +42,11 @@ const Bio = () => {
                 {/* Created by: <strong>{siteMetadata.author.name}</strong>{" "}
               {siteMetadata.author?.summary || null} */}
                 {` `}
-                donaldrhughes@gmail.com 
-                (805) 206-6695 
-                Peoria, AZ
+                donaldrhughes@gmail.com
+                Greater Phoenix Area
                 <a href="https://www.linkedin.com/in/donaldrhughes/">LinkedIn</a>
                 <a href="https://github.com/donaldrhughes">Github</a>
                 Twitter: @drhiot
-                Skype: donaldrhughes
               </div>
             </>
           )}
