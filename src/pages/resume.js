@@ -33,7 +33,7 @@ const Index = () => (
             >
               <button class="button is-large is-success is-outlined">Resume Link</button>{" "}
             </a> */}
-            <div style={styles.p}>Please <a href='/login'>login </a>or inquire for my resume.</div>
+            <div style={styles.p}>Please <a href='/login'>login </a>or inquire for resume.</div>
           </>
         );
       }}
