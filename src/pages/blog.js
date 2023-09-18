@@ -7,6 +7,7 @@ import styles from "../../styles/reactStyles"
 
 const Blog = () => (
   <Layout>
+    <h1 style={styles.titleH}>Blog</h1>
     <AppContext.Consumer>
       {({ posts }) => {
         return (

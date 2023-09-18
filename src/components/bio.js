@@ -42,11 +42,14 @@ const Bio = () => {
                 {/* Created by: <strong>{siteMetadata.author.name}</strong>{" "}
               {siteMetadata.author?.summary || null} */}
                 {` `}
-                donaldrhughes@gmail.com
-                Greater Phoenix Area
-                <a href="https://www.linkedin.com/in/donaldrhughes/">LinkedIn</a>
-                <a href="https://github.com/donaldrhughes">Github</a>
-                Twitter: @drhiot
+                <div>email: donaldrhughes@gmail.com</div>
+                <div>Greater Phoenix Area</div>
+                <div><a href="https://www.linkedin.com/in/donaldrhughes/">LinkedIn</a></div>
+                <div><a href="https://github.com/donaldrhughes">Github</a></div>
+                <div>Twitter / X: <a href="https://www.twitter.com/drhiot">@drhiot</a></div>
+                <div>Skype: donaldrhughes</div>
+                <div>Phone: 805-206-6695</div>
+                 
               </div>
             </>
           )}
