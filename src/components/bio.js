@@ -38,21 +38,32 @@ const Bio = () => {
           />
           {siteMetadata.author?.name && (
             <>
-             <div style={styles.contactBtn}>
-      {/* <div style={styles.rightMargin}><a href=''><button class='button is-success is-outlined'>Contact Me</button> </a></div>
-    </div> */}
+              {/* <div style={styles.contactBtn}>
+                <div style={styles.rightMargin}>
+                  <a href="">
+                    <button class="button is-dark is-outlined">
+                      Contact Me
+                    </button>
+                  </a>
+                </div>
+              </div> */}
               <div style={styles.contact}>
-                {/* Created by: <strong>{siteMetadata.author.name}</strong>{" "}
-              {siteMetadata.author?.summary || null} */}
-                {` `}
                 <div style={styles.p}>email: donaldrhughes@gmail.com</div>
                 <div style={styles.p}>Greater Phoenix Area</div>
-                <div style={styles.p}><a href="https://www.linkedin.com/in/donaldrhughes/">LinkedIn</a></div>
-                <div style={styles.p}><a href="https://github.com/donaldrhughes">Github</a></div>
-                <div style={styles.p}>Twitter / X: <a href="https://www.twitter.com/drhiot">@drhiot</a></div>
+                <div style={styles.p}>
+                  <a href="https://www.linkedin.com/in/donaldrhughes/">
+                    LinkedIn
+                  </a>
+                </div>
+                <div style={styles.p}>
+                  <a href="https://github.com/donaldrhughes">Github</a>
+                </div>
+                <div style={styles.p}>
+                  Twitter / X:{" "}
+                  <a href="https://www.twitter.com/drhiot">@drhiot</a>
+                </div>
                 <div style={styles.p}>Skype: donaldrhughes</div>
                 <div style={styles.p}>Phone: 805-206-6695</div>
-                 
               </div>
             </>
           )}
