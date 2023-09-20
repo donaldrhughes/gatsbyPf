@@ -39,8 +39,8 @@ const Bio = () => {
           {siteMetadata.author?.name && (
             <>
              <div style={styles.contactBtn}>
-      <div style={styles.rightMargin}><a href=''><button class='button is-success is-outlined'>Contact Me</button> </a></div>
-    </div>
+      {/* <div style={styles.rightMargin}><a href=''><button class='button is-success is-outlined'>Contact Me</button> </a></div>
+    </div> */}
               <div style={styles.contact}>
                 {/* Created by: <strong>{siteMetadata.author.name}</strong>{" "}
               {siteMetadata.author?.summary || null} */}
