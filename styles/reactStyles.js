@@ -22,6 +22,13 @@ export const styles = {
     fontWeight: 'bold',
     fontSize: '32px',
   },
+  contact: {
+    display: "flex",
+    flexGrow: 4,
+    flexDirection: 'column',
+    // alignItems: "center",
+    justifyContent: "flex-start",
+  },
   center: {
     display: "flex",
     alignItems: "center",

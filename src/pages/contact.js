@@ -8,9 +8,6 @@ const Contact = () => {
   return (
     <Layout>
       <h1 style={styles.titleH}>Contact Information</h1>
-      {/* <div style={styles.contactBtn}> */}
-      {/* <div style={styles.rightMargin}><a href=''><button class='button is-dark is-outlined'>Download</button> </a></div> */}
-    {/* </div> */}
     <Bio/>
     </Layout>
   )
