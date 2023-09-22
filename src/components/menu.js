@@ -95,8 +95,7 @@ const Menu = () => {
           <div class="navbar-end">
             <div class="navbar-item">
               <div class="buttons">
-              
-              {isLoggedIn() && <a class="navbar-item">Profile</a>}
+              {isLoggedIn() && <a href="/app/profile" class="button is-primary navbar-item">Profile</a>}
                 {!isLoggedIn() && (
                   <a class="button is-primary is-light" href="/app/login">
                     Log in
