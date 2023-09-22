@@ -1,23 +1,23 @@
-import React, { useEffect, useState } from "react"
-import PropTypes from "prop-types"
-import { getUser, isLoggedIn, logout } from "../services/auth"
-import "../pages/mystyles.scss"
-import { navigate } from "gatsby"
-import ScrollingText from "./scrollingText"
+import React, { useEffect, useState } from "react";
+import PropTypes from "prop-types";
+import { getUser, isLoggedIn, logout } from "../services/auth";
+import "../pages/mystyles.scss";
+import { navigate } from "gatsby";
+// import ScrollingText from "./scrollingText";
 // import { StaticImage } from "gatsby-plugin-image"
-import styles from "../../styles/reactStyles"
+import styles from "../../styles/reactStyles";
 
 const Menu = () => {
-  const [toggleVal, setToggleVal] = useState("navbar-menu")
+  const [toggleVal, setToggleVal] = useState("navbar-menu");
   // const image = `IMG_1946.jpg`
-  useEffect(() => {}, [])
+  useEffect(() => {}, []);
 
   function clickNavMobile(e) {
-    e.preventDefault()
+    e.preventDefault();
     if (toggleVal === "navbar-menu is-active") {
-      setToggleVal("navbar-menu")
+      setToggleVal("navbar-menu");
     } else if (toggleVal === "navbar-menu") {
-      setToggleVal("navbar-menu is-active")
+      setToggleVal("navbar-menu is-active");
     }
   }
 
@@ -45,13 +45,13 @@ const Menu = () => {
           />
           */}
           </a>
-          <p style={{ padding: "12px", color: "#43b733" }}>
+          {/* <p style={{ padding: "12px", color: "#43b733" }}>
             {isLoggedIn() ? (
               <ScrollingText text={`${getUser().name} reporting for duty`} />
             ) : (
               ``
             )}
-          </p>
+          </p> */}
           <a
             role="button"
             class="navbar-burger"
@@ -80,22 +80,23 @@ const Menu = () => {
               Contact
             </a>
             <hr class="navbar-divider" />
-            {isLoggedIn() && <a class="navbar-item">Profile</a>}
             {isLoggedIn() && (
-              <div class="navbar-item has-dropdown is-hoverable">
-                <a class="navbar-link">Sandbox</a>
-                <div class="navbar-dropdown">
-                  <a class="navbar-item">Other</a>
-                  <hr class="navbar-divider" />
-                  <a class="navbar-item">Test</a>
+                <div class="navbar-item has-dropdown is-hoverable">
+                  <a class="navbar-link">Sandbox</a>
+                  <div class="navbar-dropdown">
+                    <a class="navbar-item">Other</a>
+                    <hr class="navbar-divider" />
+                    <a class="navbar-item">Testbed</a>
+                  </div>
                 </div>
-              </div>
-            )}
+              )}
           </div>
 
           <div class="navbar-end">
             <div class="navbar-item">
               <div class="buttons">
+              
+              {isLoggedIn() && <a class="navbar-item">Profile</a>}
                 {!isLoggedIn() && (
                   <a class="button is-primary is-light" href="/app/login">
                     Log in
@@ -105,9 +106,9 @@ const Menu = () => {
                   <a
                     class="button is-danger is-light"
                     href="/"
-                    onClick={event => {
-                      event.preventDefault()
-                      logout(() => navigate(`/app/login`))
+                    onClick={(event) => {
+                      event.preventDefault();
+                      logout(() => navigate(`/app/login`));
                     }}
                   >
                     Log Out
@@ -119,12 +120,12 @@ const Menu = () => {
         </div>
       </nav>
     </>
-  )
-}
+  );
+};
 
 Menu.propTypes = {
   toggleVal: PropTypes.bool,
   toggled: PropTypes.string,
-}
+};
 
-export default Menu
+export default Menu;
