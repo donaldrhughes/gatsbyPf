@@ -4,7 +4,7 @@ import PropTypes from "prop-types"
 import styles from "../../styles/reactStyles"
 
 const Profile = () => {
-  useEffect(() => {}, [])
+  // useEffect(() => {}, [])
 
   return (
     <>
