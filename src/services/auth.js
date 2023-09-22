@@ -12,8 +12,8 @@ export const handleLogin = ({ username, password }) => {
   if (username === `admin` && password === `pass`) {
     return setUser({
       username: `admin`,
-      name: `Universal Admin`,
-      email: `admin@roguesoulsgame.com`,
+      name: `Admin`,
+      email: `admin@drhiot.com`,
     })
   }
   return false

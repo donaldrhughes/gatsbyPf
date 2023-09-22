@@ -26,7 +26,6 @@ export const styles = {
     display: "flex",
     flexGrow: 4,
     flexDirection: 'column',
-    // alignItems: "center",
     justifyContent: "flex-start",
   },
   center: {

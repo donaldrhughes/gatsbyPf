@@ -4,14 +4,14 @@ import PropTypes from "prop-types"
 import styles from "../../styles/reactStyles"
 
 const Profile = () => {
-  // useEffect(() => {}, [])
 
   return (
     <>
-      <div style={styles.header}>{getUser().name}Profile</div>
-      <ul>
-        <li>{getUser().name}</li>
-    
+      <div style={styles.pageH}>Username: </div>
+      <ul style={styles.p}>
+        <li>{`Full Name: ${getUser().name}`}</li>
+        <li>{`Username: ${getUser().username}`}</li>
+        <li>{`Email: ${getUser().email}`}</li>
       </ul>
     </>
   )
