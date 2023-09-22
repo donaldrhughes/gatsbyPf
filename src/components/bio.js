@@ -48,8 +48,8 @@ const Bio = () => {
                 </div>
               </div> */}
               <div style={styles.contact}>
-                <div style={styles.p}>email: donaldrhughes@gmail.com</div>
-                <div style={styles.p}>Greater Phoenix Area</div>
+                <div style={styles.p}>donaldrhughes@gmail.com</div>
+                <div style={styles.p}>805-206-6695</div>
                 <div style={styles.p}>
                   <a href="https://www.linkedin.com/in/donaldrhughes/">
                     LinkedIn
@@ -62,8 +62,8 @@ const Bio = () => {
                   Twitter / X:{" "}
                   <a href="https://www.twitter.com/drhiot">@drhiot</a>
                 </div>
-                <div style={styles.p}>Skype: donaldrhughes</div>
-                <div style={styles.p}>Phone: 805-206-6695</div>
+                <div style={styles.p}>donaldrhughes</div>
+                <div style={styles.p}>Greater Phoenix Area</div>
               </div>
             </>
           )}
