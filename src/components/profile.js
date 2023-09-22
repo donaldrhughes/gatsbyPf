@@ -8,14 +8,10 @@ const Profile = () => {
 
   return (
     <>
-      <div style={styles.header}>{getUser().name}'s Quarters</div>
+      <div style={styles.header}>{getUser().name}Profile</div>
       <ul>
         <li>{getUser().name}</li>
-        <li>{getUser().email}</li>
-        <li>Galaxy: A3d4</li>
-        <li>StarSystem: E7g1</li>
-        <li>Planet: Deep Sekh</li>
-        <li>Worth: {`${"50"} tons`} </li>
+    
       </ul>
     </>
   )
