@@ -10,11 +10,13 @@ module.exports = {
       summary: `Phoenix, AZ Area`,
       description: `Front End Web Developer specializing in React`,
     },
-    description: `A 25 year technology problem solver with experience in web development, implementation, technical account management, and solutions consulting. Strong knowledge of computer applications, functional programming, and Agile methodologies with a distinct focus on Client success. Reliable self starter with a passion for completing projects and promoting cross-team communication. Utilizes industry standards, is collaborative, timely, and prepared.
+    description: `A 25 year technology problem solver with ReactTS applications in PHP, node, and Java environments. Strong knowledge of computer applications, functional programming, and Agile methodologies. Reliable self starter with a passion for completing projects and promoting cross-team communication. Utilizes industry standards, is collaborative, timely, and prepared.
     `,
-    skills: `TypeScript, Javascript (Next), PHP, Oracle Java 12, HTML5, SCSS, Regex, cURL, graphQL, SQL, XML
-    Frameworks: Gatsby, React Web / React-Native, Node (Express),  JQuery, Angular, Laravel
-    JS Libraries: Redux, Jest / React Testing Library, Storybook, lodash, Bulma, i18next, Formik, es-lint
+    skills: `Typescript, Java, PHP, HTML5, SCSS, cURL, graphQL, regex
+    NextJS, Gatsby, React Web, React-Native, Node (Express),  JQuery, Angular, Laravel, Spring Boot
+    redux, jest / RTL, Storybook, i18next, formik
+    API, UX/UI, Atomic Design, Functional Programming, MVC, OOP, Authentication, Data Structures, TDD, SDLC, CI/CD,  AJAX, JSON, Web3, Cloud Computing, Virtualization, Serverless Cloud, IoT, Software Design and Modeling, BIG O(n), OSI
+    AWS, WordPress, Shopify, BigCommerce, CLI, Postman, Docker, Jenkins, GitHub, Jira, Figma, Android Studio, SQL Server, Heroku, Azure, Firebase, Invision, Photoshop, Drupal, Joomla, Mysql, No-sql, Active Directory, Tableau, Rackspace, httpd, XCode, Gradle, Maven
     `,
     education: `Capella University - BS Information Technology, Minor: Mobile Application Development -- GPA: 3.5+
     University of California, Irvine - Coding Bootcamp (Diploma) - 26 Continuing Education Units (CEU)
