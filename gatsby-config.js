@@ -10,7 +10,7 @@ module.exports = {
       summary: `Phoenix, AZ Area`,
       description: `Front End Web Developer specializing in React`,
     },
-    description: `A 25 year technology problem solver with ReactTS applications in PHP, node, and Java environments. Strong knowledge of computer applications, functional programming, and Agile methodologies. Reliable self starter with a passion for completing projects and promoting cross-team communication. Utilizes industry standards, is collaborative, timely, and prepared.
+    description: `A 25 year technical problem solver with a strong focus on the front-end. Expertise with ReactTS applications in PHP, node, and Java. He is a reliable self-starter with a passion for customer success and promoting cross-team collaboration. Team player that willing to do what the Client needs to succeed.
     `,
     skills: `Typescript, Java, PHP, HTML5, SCSS, cURL, graphQL, regex
     NextJS, Gatsby, React Web, React-Native, Node (Express),  JQuery, Angular, Laravel, Spring Boot
