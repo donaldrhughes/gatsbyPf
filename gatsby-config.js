@@ -12,11 +12,11 @@ module.exports = {
     },
     description: `A full stack engineer with a strong focus on front-end and mobile development. Has extensive expertise with React and React-Native used in PHP, node, and Java environments. Is a reliable self-starter with a passion for technology and promoting cross-team knowledge transfer. He is always focused on the Client’s technology goals for success.
     `,
-    skills: `Typescript, Java, PHP, HTML5, SCSS, cURL, graphQL, regex
-    NextJS, Gatsby, React Web, React-Native, Node (Express),  JQuery, Angular, Laravel, Spring Boot
+    skills: `Typescript, Java, PHP, cURL, graphQL, regex, bash
+    NextJS, Gatsby, React, React-Native, Node (Express),  jQuery, Angular, Laravel, Spring Boot
     redux, jest / RTL, Storybook, i18next, formik
-    API, UX/UI, Atomic Design, Functional Programming, MVC, OOP, Authentication, Data Structures, TDD, SDLC, CI/CD,  AJAX, JSON, Web3, Cloud Computing, Virtualization, Serverless Cloud, IoT, Software Design and Modeling, BIG O(n), OSI
-    AWS, WordPress, Shopify, BigCommerce, CLI, Postman, Docker, Jenkins, GitHub, Jira, Figma, Android Studio, SQL Server, Heroku, Azure, Firebase, Invision, Photoshop, Drupal, Joomla, Mysql, No-sql, Active Directory, Tableau, Rackspace, httpd, XCode, Gradle, Maven
+    Headless CMS, API, UX/UI, Atomic Design, Functional Programming, MVC, OOP, Authentication, DNS, Data Structures, TDD, SDLC, CI/CD,  AJAX, JSON, Web3, Virtualization, Serverless Cloud, IoT, Modeling, BIG O(n), OSI
+    Docker, Jenkins, Postman, Strapi, XCode, Gradle, Contentful, Shopify, WordPress, BigCommerce, Git, Jira, Figma, Android, IOS, SQL Server, Netlify, Heroku, Azure, Firebase, Invision, Photoshop, Drupal, Joomla, Mysql, No-sql, Active Directory, Tableau, Rackspace, httpd
     `,
     education: `Capella University - BS Information Technology, Minor: Mobile Application Development -- GPA: 3.5+
     University of California, Irvine - Coding Bootcamp (Diploma) - 26 Continuing Education Units (CEU)
