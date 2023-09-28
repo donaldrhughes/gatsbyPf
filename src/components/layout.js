@@ -57,7 +57,7 @@ const Layout = ({ children }) => {
           }
         </header>
         <main>{children}</main>
-        <footer style={styles.footer} >© {new Date().getFullYear()}, Built by Donald R Hughes with Gatsby and React</footer>
+        <footer style={styles.footer} >© {new Date().getFullYear()}, Built by Donald R Hughes with Gatsby</footer>
       </div>
     </>
   )
